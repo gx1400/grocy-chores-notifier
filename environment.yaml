@@ -1,0 +1,9 @@
+name: grocy-chores-notifier
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.10
+  - requests=2.31.0
+  - pip
+  - pip:
+      - python-dotenv==1.0.0
